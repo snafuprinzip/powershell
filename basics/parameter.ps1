@@ -1,4 +1,4 @@
-# Liest Parameter von der Kommandozeile
+# Kommandozeilenparameter (-? zum anzeigen)
 param (
     [string]$server = "http://www.snafuprinzip.de",
     [Parameter(Mandatory = $true)][string]$username,
